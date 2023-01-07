@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-for-all{
+    background-color: #2B3467;
+    color: #FCFFE7;
+    font-weight: 700;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.header{
+    background-color: #2B3467;
+    text-align: right;
+    color: #FCFFE7;
+    padding: 18% 15%;
+    background-image: url(/images/banner/banner3.png);
+    background-size: cover;
+    background-position: 65% 25%;
+}
+
+.header-title{
+    font-size: 38px;
+    font-weight: 700; 
+    text-align: left;
+    text-align: right; 
+    
+}
+
+.header-description{
+    margin-top: 10px;
+}
+
+.my-failure{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border:1px solid yellow;
+}
+
+.failure-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom:25px;
+}
+
+.failure-para{
+    max-width: 400px;
+    padding: 30px;
+    margin-left: 3%;
+}
+
+.failure-text{
+    margin-bottom:25px;
+
+}
+
+.failure-para ul {
+    list-style: none;
+   padding-left: 0;
+}
+
+  .failure-para ul li{
+    margin:0;
+}
+  
+  ul li:before {
+    content: '✓';
+    margin-right: 5px;
+    color: green;
+    font-weight: 400;
+}
+
+.my-plans{
+    margin-bottom: 20px;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+    margin: 5px 100px;
+}
+
+.plan{
+    text-align: center;
+}
+
+ .my-plans-title{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.mindset-positive {
+    margin: 100px 100px;
+}
+
+.mindset-positive .mindset{
+    width: 700px;
+    height: 200px;
+    background-color: #2B3467;
+    margin-top: 3%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image:
+    linear-gradient(to bottom, rgb(43, 52, 103, 0.10), rgb(235, 69, 95, 0.73)),
+    url('/images/watch.png');
+    background-size: cover;
+}
+
+.mindset-title{
+    color: #2B3467;
+    font-size: 25px;
+    padding:35px 30px 30px 30px;
+
+}
+
+.mindset-btn{
+    margin: 10px 10px 5px 30px;
+    background-color: #EB455F;
+
+}
