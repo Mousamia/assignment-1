@@ -20,7 +20,7 @@
     text-align: right;
     color: #FCFFE7;
     padding: 18% 15%;
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(./images/banner/banner3.png);
     background-size: cover;
     background-position: 65% 25%;
 }
@@ -162,7 +162,7 @@
     border-radius: 10px;
     background-image:
     linear-gradient(to top, rgb(43, 52, 103, 0.10), rgb(235, 69, 95, 0.73)),
-    url('/images/watch.png');
+    url('./images/watch.png');
     background-size: cover;
     border: none;
 }
