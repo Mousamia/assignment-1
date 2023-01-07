@@ -13,6 +13,8 @@
     margin-top: 10px;
 }
 
+/* header Section */
+
 .header{
     background-color: #2B3467;
     text-align: right;
@@ -35,13 +37,16 @@
     margin-top: 10px;
 }
 
+/* failure section */
+
+
+
 .my-failure{
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 100px;
-    border:1px solid yellow;
 }
 
 .failure-title{
@@ -66,15 +71,56 @@
    padding-left: 0;
 }
 
-  .failure-para ul li{
+.failure-para ul li{
     margin:0;
 }
   
-  ul li:before {
+.failure-para  ul li:before {
     content: '✓';
     margin-right: 5px;
     color: green;
     font-weight: 400;
+}
+
+/* about-skill section (Bonus Section) */
+
+
+.about-me{
+    flex-direction: row-reverse;
+}
+.me, .list{
+    background-color: #e4e5ee;
+    width: 300px;
+    padding:5%;
+}
+
+.about-me, .skills-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list ul{
+    list-style-type: circle;
+}
+
+.list ul li{
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+.about-me .me{
+    max-width: 300px;
+}
+
+.about-me img{
+    border-radius: 50%;
+}
+
+.my-skills img{
+    border-radius: 50%;
 }
 
 .my-plans{
@@ -85,20 +131,23 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid red;
-    margin: 5px 100px;
+    margin: 25px 100px;
 }
 
 .plan{
     text-align: center;
+    margin-top: 25px;
 }
 
  .my-plans-title{
     text-align: center;
     font-weight: 700;
+    margin-top: 30px;
     margin-bottom: 30px;
     font-size: 30px;
 }
+
+/* mindset section */
 
 .mindset-positive {
     margin: 100px 100px;
@@ -112,9 +161,10 @@
     margin: 0 auto;
     border-radius: 10px;
     background-image:
-    linear-gradient(to bottom, rgb(43, 52, 103, 0.10), rgb(235, 69, 95, 0.73)),
+    linear-gradient(to top, rgb(43, 52, 103, 0.10), rgb(235, 69, 95, 0.73)),
     url('/images/watch.png');
     background-size: cover;
+    border: none;
 }
 
 .mindset-title{
@@ -127,5 +177,40 @@
 .mindset-btn{
     margin: 10px 10px 5px 30px;
     background-color: #EB455F;
+}
 
+
+/* footer section */
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2B3467;
+    height: 500px;
+}
+.future{
+    max-width: 400px;
+}
+
+.contact-title{
+    color: #FCFFE7;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.subscribe-btn{
+    background-color: #EB455F;
+}
+
+.contact-desc{
+    color:#FCFFE7;
+    margin: 10px 0;
+
+}
+
+.contact input[type=text]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
 }
